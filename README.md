@@ -24,7 +24,7 @@
   - [frontend](https://github.com/thelittlepony/OpenGDPS-Core/tree/main/routes/frontend) - Dummy for `/database/accounts/accountManagement.php`
   - [legacy](https://github.com/thelittlepony/OpenGDPS-Core/tree/main/routes/legacy) - Just exists, I forgot to implement it
   - [levels](https://github.com/thelittlepony/OpenGDPS-Core/tree/main/routes/levels) - Partially implemented, but uploading/downloading levels I was unable to implement
-  - downloadGJLevel - Level downloading
+  - downloadGJLevel - Level downloading is not implemented
 
 ## Problems
 - Security (SQL-injections, you know)
