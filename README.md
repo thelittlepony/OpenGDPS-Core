@@ -4,13 +4,16 @@
 
 # OpenGDPS
 
-> OpenGDPS is an open-source implementation of Geometry Dash server, in Python. It supports 2.11 only, versions below 2.0 or 2.2+ are not supported.
+> OpenGDPS is an open-source implementation of Geometry Dash (GD) server, in Python. It supports 2.11 only, versions below 2.0 or 2.2+ are not supported.
+
+> Reason why I made this: I wanted to try implement Geometry Dash server in something differrent, than PHP. And to get experience of working with Python & HTTP.
+> I used [https://github.com/Cvolton/GMDprivateServer](Cvolton/GMDprivateServer) to see, how others implemented GD server, Cvolton implemented it in PHP (like original GD), and just to take some weird formulas, to create server response.
 
 > It's very modular, and implemented in Flask (I know, FastAPI just exists, but Flask is better for prototyping).
 
 > NEVER use this implementation in production - IT'S REALLY UNSAFE, CONTAINS SQL-INJECTIONS! It's just prototype. And it uses SQLite, so it will die in async operations.
 
-> Also, don't ask me, why there's a token in discordbot.py - anyways, it's not valid for now. But I say for everyone - never save tokens in files with source code, you should create separate .json for minimum, or better - use environment variables
+> Also, don't ask me, why there's a token in discordbot.py - anyways, it's not valid for now. But I say for everyone - never save tokens in files with source code, you should create separate .json for minimum, or better - use environment variables.
 
 ## What is implemented
 - Most Geometry Dash routes:
