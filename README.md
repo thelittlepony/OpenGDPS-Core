@@ -1,5 +1,9 @@
+<p align="center">
+  <img src="./ReadmeAssets/OpenGDPS_Logo.png" alt="OpenGDPS Logo" width="200">
+</p>
 
 # OpenGDPS
+
 > OpenGDPS is an open-source implementation of Geometry Dash server, in Python. It supports 2.11 only, versions below 2.0 or 2.2+ are not supported.
 
 > It's very modular, and implemented in Flask (I know, FastAPI just exists, but Flask is better for prototyping).
